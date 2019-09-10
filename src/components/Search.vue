@@ -3,7 +3,7 @@
     <div class="input-group mb-3">
       <div class="input-group-prepend">
         <button
-          class="btn btn-outline-warning"
+          class="btn btn-outline-primary"
           type="button"
           id="button-addon1"
           @click="getApod()"

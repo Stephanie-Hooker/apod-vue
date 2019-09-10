@@ -5,7 +5,7 @@
         <search />
       </div>
     </div>
-    <div class="row">
+    <div class="row text-center">
       <ApodDetails />
     </div>
   </div>

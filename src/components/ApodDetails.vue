@@ -1,5 +1,5 @@
 <template>
-  <div class="apod-details col-6">
+  <div class="apod-details col-12 text-center">
     <h1>Nasa picture of the day</h1>
     <h5>{{apod.date}}</h5>
     <img :src="apod.url" />
@@ -26,4 +26,8 @@ export default {
 
 
 <style scoped>
+img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 </style>
